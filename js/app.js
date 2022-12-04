@@ -3,6 +3,9 @@ const layers = screne.children
 const depth = [0.2, 0.4, 0.6, 0.8, 1]
 
 let windowWidth = null
+let windowHeight = null
+let windowCenterX = null
+let windowCenterY = null
 
 let inputX = 0
 let inputY = 0
