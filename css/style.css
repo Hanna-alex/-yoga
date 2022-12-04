@@ -10,7 +10,6 @@ main {
 }
 
 .header {
-  background: linear-gradient(355.32deg, #D9996E 35%, #8599B8 82.76%);
   overflow: hidden;
   background: #151025;
 }
@@ -32,13 +31,7 @@ main {
 .header__bg_img-4 {
   background: url(../img/layer_5.png) no-repeat bottom/120vw auto;
 }
-.header__bg_img-5 {
-  background: url(../img/layer_4.png) no-repeat bottom/120vw auto;
-}
-.header__bg_img-6 {
-  background: url(../img/layer_3.png) no-repeat bottom/120vw auto;
-}
-.header__bg_img-6::after {
+.header__bg_img-4::after {
   content: "";
   width: 200vw;
   height: 50vh;
@@ -48,18 +41,14 @@ main {
   bottom: -50vh;
   left: 0;
 }
+.header__bg_img-5 {
+  background: url(../img/layer_4.png) no-repeat bottom/120vw auto;
+}
+.header__bg_img-6 {
+  background: url(../img/layer_3.png) no-repeat bottom/120vw auto;
+}
 .header__bg_img-7 {
   background: url(../img/layer_2.png) no-repeat bottom/120vw auto;
-}
-.header__bg_img-7::after {
-  content: "";
-  width: 200vw;
-  height: 50vh;
-  background: #332047;
-  display: block;
-  position: absolute;
-  bottom: -50vh;
-  left: 0;
 }
 .header__bg_img-8 {
   background: url(../img/layer_1.png) no-repeat bottom/120vw auto;
@@ -67,7 +56,7 @@ main {
 .header__bg_img-8::after {
   content: "";
   width: 200vw;
-  height: 50vh;
+  height: 54vh;
   background: #151025;
   display: block;
   position: absolute;
